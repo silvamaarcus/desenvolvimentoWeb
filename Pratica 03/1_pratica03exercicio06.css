@@ -1,0 +1,23 @@
+body {
+    background-color: #cccccc;
+    font-family: sans-serif, verdana;
+    font-size: 25px;
+    color: white;
+}
+h1 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+section {
+    background-color: gray;
+    text-align: center; 
+}
+#texto1 {
+    color: black;
+    font-weight: bold;
+}
+#texto2 {
+    color: red;
+    font-weight: bold;
+}

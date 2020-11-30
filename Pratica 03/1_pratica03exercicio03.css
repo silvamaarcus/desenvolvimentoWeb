@@ -1,0 +1,11 @@
+html,body{
+    color: green;
+    font-family: Verdana;
+    font-size: 1rem;
+}
+
+#resp{
+    color: yellow;
+    font-family: Verdana;
+    font-size: 3rem;
+}

@@ -1,0 +1,31 @@
+html, body, h1 {
+    font-family: 'Calistoga', cursive;
+    background-color: #faedd4;
+}
+p {
+    font-family: 'Alata', sans-serif;
+}
+
+#nav-item {
+    color:#361d04;
+}
+
+header {    
+    width: 100%;   
+}
+
+footer {
+    text-align: center;
+    color: #f5cf87;
+    font-family: 'Calistoga', cursive;    
+    /*text-shadow: #fff 3px 4px 5px;*/
+    background-color: #361d04;
+    /*background-image: url("imagens/header.jpg");     */ 
+    width: 100%;
+    font-size: 16px;
+    clear: both;
+    margin: 0 auto;    
+    padding: 10px;
+    position: relative;   
+    bottom: 0;
+}

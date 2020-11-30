@@ -1,0 +1,37 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1.mensagem {
+    background-color: #518557;
+    color: #83f791;
+    padding: 1rem;
+    border: 2px solid black;
+    width: 20rem;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+main {
+    border: .2rem solid black;
+    width: 30rem;
+    padding: 1.5rem 1rem;
+    background-color: #d6d6d6;
+    margin: 1rem auto;
+}
+
+.input {
+    padding: 0.2rem;
+    padding-left: 5px;
+    margin-left: 10rem;
+}
+
+label {
+    display: block;
+    float: left;
+}
+
+#Cadastrar {
+    margin-left: 19.2rem;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-brF">
+<head>
+    <meta charset="UTF-8">
+    <title>Prática - Exemplo 1</title>
+    <style>
+        html {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+        div {
+            display: block;
+            width: 250px;
+            height: 250px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+            float: left;
+        }
+    </style>
+    <script>
+        function funcaoRemover() {
+            remover.style.display = "none";
+        }
+        function funcaoVisibilidade() {
+            ocultar.style.visibility = "hidden";
+        }
+        function funcaoMostrar() {
+            remover.style.display = "block";
+            ocultar.style.visibility = "visible";
+        }
+    </script>
+</head>
+<body>
+    <div id="remover" onclick="funcaoRemover ()">Remover</div>
+    <div id="ocultar" onclick="funcaoVisibilidade ()">Ocultar</div>
+    <div id="desfazer" onclick="funcaoMostrar ()">Mostrar</div>    
+</body>
+</html>

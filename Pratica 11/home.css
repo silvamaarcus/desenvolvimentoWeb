@@ -1,0 +1,14 @@
+main{
+    display: flex;
+    flex-direction: row;
+}
+#maria {
+    float: right;
+    height: 200px;
+    width: 300px;
+    padding: 10px;  
+}
+footer{
+    position: fixed;
+}
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="contatos.css">
+    <link rel="stylesheet" href="home.css">
+    <script type="text/javascript" src="pratica11exercicio01.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logoImg">
+            <img src="imagens/logo.png" alt="Maria Chocolate" height="100" />
+        </div>
+
+        <div class="titulo">
+            <h1>Confeitando para a alegria da sua vida...</h1>
+        </div>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="bolos.html">Bolos</a></li>
+            <li><a href="tortas.html">Tortas</a></li>
+            <li><a href="festas.html">Festas</a></li>
+            <li><a href="contatos.html">Contatos</a></li>
+        </ul>
+
+    </nav>
+
+    <section>
+        <main>
+            <form action="resposta.html">
+                <div class="label">
+                    <label for="nome">Nome:</label>
+                    <div class="input">
+                        <input type="text" placeholder="Informe o seu nome" id="nome" size="30" tabindex="1"><br>
+                    </div>
+
+                    <label for="email">E-mail:</label>
+                    <div class="input">
+                        <input type="email" placeholder="Informe o seu e-mail" id="email" size="30" tabindex="2"><br>
+                    </div>
+
+                    <label for="tipoContato">Tipo do Contato:</label>
+                    <div class="input">
+                        <select id="tipoContato">
+                            <option selected="selected" disabled tabindex="3">Selecione</option>
+                            <option>Elogio</option>
+                            <option>Crítica</option>
+                            <option>Sugestão</option>
+                            <option>Dúvidas</option>
+                        </select><br>
+                    </div>
+
+                    <label>Mensagem:</label>&nbsp<textarea class="msg" cols="35" rows="8"></textarea><br>
+
+
+                    <label></label>
+                    <div class="input">
+                        <label>
+                            <input type="checkbox" value="" id="opcional" size="35" tabindex="5">Quero receber mensagens
+                            deliciosas...</label>
+                    </div>
+                </div>
+                <div id="botao">
+                    <input id="enviar" type="submit" value="Enviar" onclick="return validarformulario()">
+                </div>
+            </form>
+        </main>
+    </section>
+    <footer>
+        <p>Desenvolvido como exercício da disciplina Fundamentos de Desenvolvimento Web. ©Copyright 2019. Todos os
+            Direitos Reservados.</p>
+    </footer>
+</body>
+
+</html>

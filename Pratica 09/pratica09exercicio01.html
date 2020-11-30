@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prática 09 - Exercicio 01</title>
+    <link rel="stylesheet" href="pratica09exercicio01.css">
+    <script type="text/javascript" src="pratica09exercicio01.js"></script>
+</head>
+
+<body>
+    <main>
+        <form action="resposta.html"> <!--Criando Formulário-->
+            <div class="label">
+
+                <label for="login">Login:</label>
+                <div class="input">
+                    <input type="text" placeholder="Informe seu login" id="login" size="35" tabindex="1"><br>
+                </div>
+
+                <label for="email">E-mail:</label>
+                <div class="input">
+                    <input type="email" placeholder="Informe seu email" id="email" size="35" tabindex="2"><br>
+                </div>
+
+                <label for="datanasc">Data de Nascimento:</label>
+                <div class="input">
+                    <input type="date" placeholder="Informe sua data de nascimento" id="datanasc" size="35" tabindex="3"><br>
+                </div>
+
+                <label for="senha">Senha:</label>
+                <div class="input">
+                    <input type="password" placeholder="Informe sua senha" id="senha" size="35" tabindex="4"><br>
+                </div>
+
+                <label for="confsenha">Confirmar Senha:</label>
+                <div class="input">
+                    <input type="password" placeholder="Confirme sua senha" id="confsenha" size="35" tabindex="5"><br>
+                </div>
+
+                <label for="sexo">Sexo:</label>
+                <div class="input">
+                    <select id="sexo">
+                        <option selected="selected" disabled tabindex="6">Selecione</option>
+                        <option>Feminino</option>
+                        <option>Masculino</option>
+                    </select><br>
+                </div>
+
+                <label for="cidade">Cidade:</label>
+                <div class="input">
+                    <input type="text" placeholder="Informe sua cidade" id="cidade" size="35" tabindex="7"><br>
+                </div>
+
+                <label for="home">Home-Page:</label>
+                <div class="input">
+                    <input id="home" type="text" value="https://" size="35" tabindex="8" onmouseover="reescrever()"><br>
+                </div>
+
+                <label>Interesses:</label>
+                <div class="input">
+                    <label>
+                        <input type="checkbox" value="musica" id="interesse" size="35" tabindex="9">Música</label>
+                        <input type="checkbox" value="esporte" id="interesse" size="35" tabindex="10">Esporte</label>
+                        <input type="checkbox" value="moda" id="interesse" size="35" tabindex="11">Moda</label><br><br>
+                </div>
+            </div>
+            <input type="reset" value="Limpar">
+            <input id="cadastrar" type="submit" value="Cadastrar" onclick="return validarformulario()">
+        </div>
+        </form>
+    </main>
+
+</body>
+
+</html>

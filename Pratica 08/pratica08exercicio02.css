@@ -1,0 +1,16 @@
+#text {
+    margin: 10px solid #000;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+#img1 {
+    float: right;
+    width: 200px;
+    height: 100px;
+}
+
+#titulo {
+    color: rgb(36, 187, 36);
+    text-align: center;
+}

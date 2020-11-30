@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CineFlix</title>
+    <link rel="stylesheet" href="pratica12exercicio01.css">
+    <script type="text/javascript" src="pratica12exercicio01.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+        integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="titulo">
+            <h1>Cine Flix</h1>
+        </div>
+    </header>
+
+    <section>
+
+        <div class="flex-container">
+            <div id="img">
+                <img id="imagem1" src="imagens/homemFerro.jpg" alt="Homem de Ferro" width="214" height="317"
+                    onclick="clique(this)">
+            </div>
+
+            <div id="img">
+                <img id="imagem2" src="imagens/capitaoAmerica.jpg" alt="Capitão América" width="214" height="317"
+                    onclick="clique2(this)">
+            </div>
+
+            <div id="img">
+                <img id="imagem3" src="imagens/vingadores.jpg" alt="Vingadores" width="214" height="317"
+                    onclick="clique3(this)">
+            </div>
+
+            <div id="img">
+                <img id="imagem4" src="imagens/vingadoresUltron.jpg" alt="Vingadores Ultron" width="214" height="317"
+                    onclick="clique4(this)">
+            </div>
+
+            <div id="img">
+                <img id="imagem5" src="imagens/guardioes.jpg" alt="Guardiôes da Galáxia" width="214" height="317"
+                    onclick="clique5(this)">
+            </div>
+
+            <div id="img">
+                <img id="imagem6" src="imagens/guerraCivil.jpg" alt="Guerra Civil" width="214" height="317"
+                    onclick="clique6(this)">
+            </div>
+
+            <div id="img">
+                <img id="imagem7" src="imagens/pantera.jpg" alt="Pantera Negra" width="214" height="317"
+                    onclick="clique7(this)">
+            </div>
+
+            <div id="img">
+                <img id="imagem8" src="imagens/thor.jpg" alt="Thor Ragnarok" width="214" height="317"
+                    onclick="clique8(this)">
+            </div>
+
+            <div id="img">
+                <img id="imagem9" src="imagens/vingadoresInfinita.jpg" alt="Guerra Infinita" width="214" height="317"
+                    onclick="clique9(this)">
+            </div>
+
+            <div id="img">
+                <img id="imagem10" src="imagens/capitaMarvel.jpg" alt="Capitã Marvel" width="214" height="317"
+                    onclick="clique10(this)">
+            </div>
+
+            <div id="img">
+                <img id="imagem11" src="imagens/vingadoresUltimato.jpg" alt="Ultimato" width="214" height="317"
+                    onclick="clique11(this)">
+            </div>
+
+            <div id="img">
+                <img id="imagem12" src="imagens/homemAranha.jpg" alt="Homem Aranha - Longe de Casa" width="214"
+                    height="317" onclick="clique12(this)">
+            </div>
+        </div>
+
+    </section>
+
+    <footer>        
+            <i class="fas fa-map-marker-alt"></i> Av. Augusto de Lima, 233, Centro - Belo Horizonte - MG | CEP:
+            30190-001.<br><br>
+            <i class="fas fa-envelope"></i> help@cineflix.com &nbsp
+            <i class="fab fa-instagram"></i> @cineflix &nbsp
+            <i class="fab fa-facebook-square"></i> CineFlix
+    </footer>
+
+    <div id="modal-promocao" class="modal-container">
+        <div class="modal">
+            <button class="fechar">x</button>
+            <h2 class="subtitulo">SINOPSE E DETALHES</h2>
+            <p> Tony Stark é um industrial bilionário e inventor brilhante que realiza testes bélicos no exterior,
+                mas é sequestrado por terroristas que o forçam a construir uma arma devastadora. Em vez disso, ele
+                constrói uma armadura blindada e enfrenta seus sequestradores. Ao voltar para os EUA, Stark aprimora a
+                armadura e a utiliza para combater o crime.</p>
+            <p>Direção: Jon Favreau.</p>
+            <p>Distribuidor: PARAMOUNT PICTURES. </p>
+            <h3> <i class="fas fa-money-bill"></i> Preços:</h3>
+            <p>R$10,00 (Meia) - R$20,00 (Inteira) <i class="fas fa-ticket-alt"></i></p>
+            <p>R$20,00 (Meia) - R$40,00 (Inteira) <i class="fas fa-ticket-alt"></i> <i class="fas fa-vr-cardboard"></i>
+                (3D)</p>
+        </div>
+    </div>
+
+    <div id="modal-promocao2" class="modal-container">
+        <div class="modal2">
+            <button class="fechar2">x</button>
+            <h2 class="subtitulo">SINOPSE E DETALHES</h2>
+            <p> Dois anos após os acontecimentos em Nova York (Os Vingadores - The Avengers), Steve Rogers (Chris Evans)
+                continua seu dedicado trabalho com a agência S.H.I.E.L.D. e também segue tentando se acostumar com o
+                fato de que foi descongelado e acordou décadas depois de seu tempo. Em parceria com Natasha Romanoff
+                (Scarlett Johansson), também conhecida como Viúva Negra, ele é obrigado a enfrentar um poderoso e
+                misterioso inimigo chamado Soldado Invernal, que visita Washington e abala o dia a dia da S.H.I.E.L.D.,
+                ainda liderada por Nick Fury (Samuel L. Jackson).</p>
+            <p>Direção: Joe e Anthony Russo.</p>
+            <p>Distribuidor: DISNEY / BUENA VISTA .</p>
+            <h3> <i class="fas fa-money-bill"></i> Preços:</h3>
+            <p>R$10,00 (Meia) - R$20,00 (Inteira) <i class="fas fa-ticket-alt"></i></p>
+            <p>R$20,00 (Meia) - R$40,00 (Inteira) <i class="fas fa-ticket-alt"></i> <i class="fas fa-vr-cardboard"></i>
+                (3D)</p>
+        </div>
+    </div>
+
+    <div id="modal-promocao3" class="modal-container">
+        <div class="modal3">
+            <button class="fechar3">x</button>
+            <h2 class="subtitulo">SINOPSE E DETALHES</h2>
+            <p> Loki (Tom Hiddleston) retorna à Terra enviado pelos chitauri, uma raça alienígena que pretende dominar
+                os humanos. Com a promessa de que será o soberano do planeta, ele rouba o cubo cósmico dentro de
+                instalações da S.H.I.E.L.D. e, com isso, adquire grandes poderes. Loki os usa para controlar o dr. Erik
+                Selvig (Stellan Skarsgard) e Clint Barton/Gavião Arqueiro (Jeremy Renner), que passam a trabalhar para
+                ele. No intuito de contê-los, Nick Fury (Samuel L. Jackson) convoca um grupo de pessoas com grandes
+                habilidades, mas que jamais haviam trabalhado juntas: Tony Stark/Homem de Ferro (Robert Downey Jr.),
+                Steve Rogers/Capitão América (Chris Evans), Thor (Chris Hemsworth), Bruce Banner/Hulk (Mark Ruffalo) e
+                Natasha Romanoff/Viúva Negra (Scarlett Johansson). Só que, apesar do grande perigo que a Terra corre,
+                não é tão simples assim conter o ego e os interesses de cada um deles para que possam agir em grupo.
+            </p>
+            <p>Direção: Joss Whedon.</p>
+            <p>Distribuidor: DISNEY / BUENA VISTA .</p>
+            <h3> <i class="fas fa-money-bill"></i> Preços:</h3>
+            <p>R$10,00 (Meia) - R$20,00 (Inteira) <i class="fas fa-ticket-alt"></i></p>
+            <p>R$20,00 (Meia) - R$40,00 (Inteira) <i class="fas fa-ticket-alt"></i> <i class="fas fa-vr-cardboard"></i>
+                (3D)</p>
+        </div>
+    </div>
+
+    <div id="modal-promocao4" class="modal-container">
+        <div class="modal4">
+            <button class="fechar4">x</button>
+            <h2 class="subtitulo">SINOPSE E DETALHES</h2>
+            <p> Tentanto proteger o planeta de ameaças como as vistas no primeiro "Os Vingadores", Tony Stark busca
+                construir um sistema de inteligência artifical que cuidaria da paz mundial. O projeto acaba dando errado
+                e gera o nascimento do Ultron (voz de James Spader). Capitão América (Chris Evans), Homem de Ferro
+                (Robert Downey Jr.), Thor (Chris Hemsworth), Hulk (Mark Ruffalo), Viúva Negra (Scarlett Johansson) e
+                Gavião Arqueiro (Jeremy Renner) terão que se unir para mais uma vez salvar o dia.</p>
+            <p>Direção: Joss Whedon.</p>
+            <p>Distribuidor: DISNEY / BUENA VISTA .</p>
+            <h3> <i class="fas fa-money-bill"></i> Preços:</h3>
+            <p>R$10,00 (Meia) - R$20,00 (Inteira) <i class="fas fa-ticket-alt"></i></p>
+            <p>R$20,00 (Meia) - R$40,00 (Inteira) <i class="fas fa-ticket-alt"></i> <i class="fas fa-vr-cardboard"></i>
+                (3D)</p>
+        </div>
+    </div>
+
+    <div id="modal-promocao5" class="modal-container">
+        <div class="modal5">
+            <button class="fechar5">x</button>
+            <h2 class="subtitulo">SINOPSE E DETALHES</h2>
+            <p> Peter Quill (Chris Pratt) foi abduzido da Terra quando ainda era criança. Adulto, fez carreira como
+                saqueador e ganhou o nome de Senhor das Estrelas. Quando rouba uma esfera, na qual o poderoso vilão
+                Ronan, da raça kree, está interessado, passa a ser procurado por vários caçadores de recompensas. Para
+                escapar do perigo, Quill une forças com quatro personagens fora do sistema: Groot, uma árvore humanóide
+                (Vin Diesel), a sombria e perigosa Gamora (Zoe Saldana), o guaxinim rápido no gatilho Rocket Racoon
+                (Bradley Cooper) e o vingativo Drax, o Destruidor (Dave Bautista). Mas o Senhor das Estrelas descobre
+                que a esfera roubada possui um poder capaz de mudar os rumos do universo, e logo o grupo deverá proteger
+                o objeto para salvar o futuro da galáxia.</p>
+            <p>Direção: James Gunn.</p>
+            <p>Distribuidor: DISNEY / BUENA VISTA .</p>
+            <h3> <i class="fas fa-money-bill"></i> Preços:</h3>
+            <p>R$10,00 (Meia) - R$20,00 (Inteira) <i class="fas fa-ticket-alt"></i></p>
+            <p>R$20,00 (Meia) - R$40,00 (Inteira) <i class="fas fa-ticket-alt"></i> <i class="fas fa-vr-cardboard"></i>
+                (3D)</p>
+        </div>
+    </div>
+
+    <div id="modal-promocao6" class="modal-container">
+        <div class="modal6">
+            <button class="fechar6">x</button>
+            <h2 class="subtitulo">SINOPSE E DETALHES</h2>
+            <p> Steve Rogers (Chris Evans) é o atual líder dos Vingadores, super-grupo de heróis formado por Viúva Negra
+                (Scarlett Johansson), Feiticeira Escarlate (Elizabeth Olsen), Visão (Paul Bettany), Falcão (Anthony
+                Mackie) e Máquina de Combate (Don Cheadle). O ataque de Ultron fez com que os políticos buscassem algum
+                meio de controlar os super-heróis, já que seus atos afetam toda a humanidade. Tal decisão coloca o
+                Capitão América em rota de colisão com Tony Stark (Robert Downey Jr.), o Homem de Ferro.</p>
+            <p>Direção: Joe e Anthony Russo.</p>
+            <p>Distribuidor: DISNEY / BUENA VISTA .</p>
+            <h3> <i class="fas fa-money-bill"></i> Preços:</h3>
+            <p>R$10,00 (Meia) - R$20,00 (Inteira) <i class="fas fa-ticket-alt"></i></p>
+            <p>R$20,00 (Meia) - R$40,00 (Inteira) <i class="fas fa-ticket-alt"></i> <i class="fas fa-vr-cardboard"></i>
+                (3D)</p>
+        </div>
+    </div>
+
+    <div id="modal-promocao7" class="modal-container">
+        <div class="modal7">
+            <button class="fechar7">x</button>
+            <h2 class="subtitulo">SINOPSE E DETALHES</h2>
+            <p> Após a morte do rei T'Chaka (John Kani), o príncipe T'Challa (Chadwick Boseman) retorna a Wakanda para a
+                cerimônia de coroação. Nela são reunidas as cinco tribos que compõem o reino, sendo que uma delas, os
+                Jabari, não apoia o atual governo. T'Challa logo recebe o apoio de Okoye (Danai Gurira), a chefe da
+                guarda de Wakanda, da irmã Shuri (Letitia Wright), que coordena a área tecnológica do reino, e também de
+                Nakia (Lupita Nyong'o), a grande paixão do atual Pantera Negra, que não quer se tornar rainha. Juntos,
+                eles estão à procura de Ulysses Klaue (Andy Serkis), que roubou de Wakanda um punhado de vibranium,
+                alguns anos atrás.</p>
+            <p>Direção: Ryan Coogler.</p>
+            <p>Distribuidor: DISNEY / BUENA VISTA .</p>
+            <h3> <i class="fas fa-money-bill"></i> Preços:</h3>
+            <p>R$10,00 (Meia) - R$20,00 (Inteira) <i class="fas fa-ticket-alt"></i></p>
+            <p>R$20,00 (Meia) - R$40,00 (Inteira) <i class="fas fa-ticket-alt"></i> <i class="fas fa-vr-cardboard"></i>
+                (3D)</p>
+        </div>
+    </div>
+
+    <div id="modal-promocao8" class="modal-container">
+        <div class="modal8">
+            <button class="fechar8">x</button>
+            <h2 class="subtitulo">SINOPSE E DETALHES</h2>
+            <p> Thor (Chris Hemsworth) está preso do outro lado do universo. Ele precisa correr contra o tempo para
+                voltar a Asgard e parar Ragnarok, a destruição de seu mundo, que está nas mãos da poderosa e implacável
+                vilã Hela (Cate Blanchett).</p>
+            <p>Direção: Taika Waititi.</p>
+            <p>Distribuidor: DISNEY / BUENA VISTA .</p>
+            <h3> <i class="fas fa-money-bill"></i> Preços:</h3>
+            <p>R$10,00 (Meia) - R$20,00 (Inteira) <i class="fas fa-ticket-alt"></i></p>
+            <p>R$20,00 (Meia) - R$40,00 (Inteira) <i class="fas fa-ticket-alt"></i> <i class="fas fa-vr-cardboard"></i>
+                (3D)</p>
+        </div>
+    </div>
+
+    <div id="modal-promocao9" class="modal-container">
+        <div class="modal9">
+            <button class="fechar9">x</button>
+            <h2 class="subtitulo">SINOPSE E DETALHES</h2>
+            <p> Thanos (Josh Brolin) enfim chega à Terra, disposto a reunir as Joias do Infinito. Para enfrentá-lo, os
+                Vingadores precisam unir forças com os Guardiões da Galáxia, ao mesmo tempo em que lidam com desavenças
+                entre alguns de seus integrantes.</p>
+            <p>Direção: Joe e Anthony Russo.</p>
+            <p>Distribuidor: DISNEY / BUENA VISTA .</p>
+            <h3> <i class="fas fa-money-bill"></i> Preços:</h3>
+            <p>R$10,00 (Meia) - R$20,00 (Inteira) <i class="fas fa-ticket-alt"></i></p>
+            <p>R$20,00 (Meia) - R$40,00 (Inteira) <i class="fas fa-ticket-alt"></i> <i class="fas fa-vr-cardboard"></i>
+                (3D)</p>
+        </div>
+    </div>
+
+    <div id="modal-promocao10" class="modal-container">
+        <div class="modal10">
+            <button class="fechar10">x</button>
+            <h2 class="subtitulo">SINOPSE E DETALHES</h2>
+            <p> Carol Danvers (Brie Larson) é uma ex-agente da Força Aérea norte-americana, que, sem se lembrar de sua
+                vida na Terra, é recrutada pelos Kree para fazer parte de seu exército de elite. Inimiga declarada dos
+                Skrull, ela acaba voltando ao seu planeta de origem para impedir uma invasão dos metaformos, e assim vai
+                acabar descobrindo a verdade sobre si, com a ajuda do agente Nick Fury (Samuel L. Jackson) e da gata
+                Goose.</p>
+            <p>Direção: Anna Boden, Ryan Fleck.</p>
+            <p>Distribuidor: DISNEY / BUENA VISTA .</p>
+            <h3> <i class="fas fa-money-bill"></i> Preços:</h3>
+            <p>R$10,00 (Meia) - R$20,00 (Inteira) <i class="fas fa-ticket-alt"></i></p>
+            <p>R$20,00 (Meia) - R$40,00 (Inteira) <i class="fas fa-ticket-alt"></i> <i class="fas fa-vr-cardboard"></i>
+                (3D)</p>
+        </div>
+    </div>
+
+    <div id="modal-promocao11" class="modal-container">
+        <div class="modal11">
+            <button class="fechar11">x</button>
+            <h2 class="subtitulo">SINOPSE E DETALHES</h2>
+            <p> Após Thanos eliminar metade das criaturas vivas, os Vingadores precisam lidar com a dor da perda de
+                amigos e seus entes queridos. Com Tony Stark (Robert Downey Jr.) vagando perdido no espaço sem água nem
+                comida, Steve Rogers (Chris Evans) e Natasha Romanov (Scarlett Johansson) precisam liderar a resistência
+                contra o titã louco.</p>
+            <p>Direção: Joe e Anthony Russo.</p>
+            <p>Distribuidor: DISNEY / BUENA VISTA .</p>
+            <h3> <i class="fas fa-money-bill"></i> Preços:</h3>
+            <p>R$10,00 (Meia) - R$20,00 (Inteira) <i class="fas fa-ticket-alt"></i></p>
+            <p>R$20,00 (Meia) - R$40,00 (Inteira) <i class="fas fa-ticket-alt"></i> <i class="fas fa-vr-cardboard"></i>
+                (3D)</p>
+        </div>
+    </div>
+
+    <div id="modal-promocao12" class="modal-container">
+        <div class="modal12">
+            <button class="fechar12">x</button>
+            <h2 class="subtitulo">SINOPSE E DETALHES</h2>
+            <p> Peter Parker (Tom Holland) está em uma viagem de duas semanas pela Europa, ao lado de seus amigos de
+                colégio, quando é surpreendido pela visita de Nick Fury (Samuel L. Jackson). Precisando de ajuda para
+                enfrentar monstros nomeados como Elementais, Fury o convoca para lutar ao lado de Mysterio (Jake
+                Gyllenhaal), um novo herói que afirma ter vindo de uma Terra paralela. Além da nova ameaça, Peter
+                precisa lidar com a lacuna deixada por Tony Stark, que deixou para si seu óculos pessoal, com acesso a
+                um sistema de inteligência artificial associado à Stark Industries.</p>
+            <p>Direção: Jon Watts.</p>
+            <p>Distribuidor: DISNEY / BUENA VISTA .</p>
+            <h3> <i class="fas fa-money-bill"></i> Preços:</h3>
+            <p>R$10,00 (Meia) - R$20,00 (Inteira) <i class="fas fa-ticket-alt"></i></p>
+            <p>R$20,00 (Meia) - R$40,00 (Inteira) <i class="fas fa-ticket-alt"></i> <i class="fas fa-vr-cardboard"></i>
+                (3D)</p>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div id="janelaModal" class="modalVisual">
+
+    <div id="modal-promocao" class="modal-container">
+        <div class="modal">
+            <button class="fechar">x</button>
+            <h2 class="subtitulo">SINOPSE E DETALHES</h2>
+            <p> Tony Stark é um industrial bilionário e inventor brilhante que realiza testes bélicos no exterior,
+                mas é sequestrado por terroristas que o forçam a construir uma arma devastadora. Em vez disso, ele
+                constrói uma armadura blindada e enfrenta seus sequestradores. Ao voltar para os EUA, Stark aprimora a
+                armadura e a utiliza para combater o crime.</p>
+            <p>Direção: Jon Favreau.</p>
+            <p>Distribuidor: PARAMOUNT PICTURES. </p>
+            <h3> <i class="fas fa-money-bill"></i> Preços:</h3>
+            <p>R$10,00 (Meia) - R$20,00 (Inteira) <i class="fas fa-ticket-alt"></i></p>
+            <p>R$20,00 (Meia) - R$40,00 (Inteira) <i class="fas fa-ticket-alt"></i> <i class="fas fa-vr-cardboard"></i>
+                (3D)</p>
+        </div>
+    </div>

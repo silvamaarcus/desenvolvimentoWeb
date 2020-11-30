@@ -1,0 +1,26 @@
+/* id = #; class = .; titulos soltos declarados no HTML não precisam de simbologia;*/
+
+.resultado1 {
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif, verdana;
+    font-size: 30px;
+}
+.resultado2 {
+    color: green;
+    font-weight: bold;
+    font-family: sans-serif, verdana;
+    font-size: 30px;
+}
+.resultado3 {
+    color: red;
+    font-weight: bold;
+    font-family: sans-serif, verdana;
+    font-size: 30px;
+}
+.resultado4 {
+    color: blue;
+    font-weight: bold;
+    font-family: sans-serif, verdana;
+    font-size: 30px;
+}

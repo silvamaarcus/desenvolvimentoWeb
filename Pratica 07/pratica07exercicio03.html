@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=" stylesheet " href="pratica07exercicio03.css ">
+    <script type="text/javascript " src="pratica07exercicio03.js "></script>
+    <title>Prática 07 - Exercício 03</title>
+</head>
+</head>
+
+<body>
+    <table>
+        <tdead>
+            <tr>
+                <th class="topo ">Disciplina</th>
+                <th class="topo ">Aluno</th>
+                <th class="topo ">P1</th>
+                <th class="topo ">P1</th>
+                <th class="topo ">Total</th>
+            </tr>
+        </tdead>
+        <tbody>
+            <tr class="cor2" onclick="ExibeValor(this)" onmouseout="mOut()">
+                <td rowspan="5" onclick="event.stopPropagation();" class="disc">Web</td>
+                <td class="cor">José da Silva</td>
+                <td class="cor">30</td>
+                <td class="cor">10</td>
+                <td class="NotaTotalweb cor">40</td>
+            </tr>
+            <tr class="cor2" onclick="ExibeValor(this)" onmouseout="mOut()">
+                <td class="cor">Maria da Silva</td>
+                <td class="cor">25</td>
+                <td class="cor">7</td>
+                <td class="NotaTotalweb cor">32</td>
+            </tr>
+            <tr class="cor2" onclick="ExibeValor(this)" onmouseout="mOut()">
+                <td class="cor">Ronildo Graves</td>
+                <td class="cor">12</td>
+                <td class="cor">3</td>
+                <td class="NotaTotalweb cor">15</td>
+            </tr>
+            <tr class="cor2" onclick="ExibeValor(this)" onmouseout="mOut()">
+                <td class="cor">Joselita Santos</td>
+                <td class="cor">15</td>
+                <td class="cor">8</td>
+                <td class="NotaTotalweb cor">23</td>
+            </tr>
+            <tr class="cor2" onclick="ExibeValor(this)" onmouseout="mOut()">
+                <td class="media">Média Web</td>
+                <td colspan="3" class="mediaweb media cor">27.5</td>
+            </tr>
+            <tr onclick="ExibeValor1(this)" onmouseout="mOut()">
+                <td rowspan="6" onclick="event.stopPropagation();" class="disc1">Lógica de programação</td>
+                <td id="ana">José da Silva</td>
+                <td>20</td>
+                <td>9</td>
+                <td class="NotaTotal">29</td>
+            </tr>
+            <tr onclick="ExibeValor1(this)" onmouseout="mOut()">
+                <td>Maria da Silva</td>
+                <td>32</td>
+                <td></td>
+                <td class="NotaTotal">32</td>
+            </tr>
+            <tr onclick="ExibeValor1(this)" onmouseout="mOut()">
+                <td>Ronildo Graves</td>
+                <td>18</td>
+                <td>5</td>
+                <td class="NotaTotal">23</td>
+            </tr>
+            <tr onclick="ExibeValor1(this)" onmouseout="mOut()">
+                <td>Joselita Santos</td>
+                <td>35</td>
+                <td></td>
+                <td class="NotaTotal">35</td>
+            </tr>
+            <tr onclick="ExibeValor1(this)" onmouseout="mOut()">
+                <td>Janaína Murtosa</td>
+                <td>30</td>
+                <td>10</td>
+                <td class="NotaTotal">40</td>
+            </tr>
+            <tr onclick="ExibeValor1(this)">
+                <td class="media">Média Lógica de programação</td>
+                <td colspan="3" class="log media">31.8</td>
+            </tr>
+        </tbody>
+    </table>
+    <div style="display: none" id="Resultado">Aluno</div>
+</body>
+
+</html>

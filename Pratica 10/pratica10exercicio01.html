@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Agência de Viagens Oceanic</title>
+    <link rel="stylesheet" href="pratica10exercicio01.css">
+    <script src="pratica10exercicio01.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+        integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img id="img" src="oceaniclogo.png">
+        </div>
+        <h1 id="title">Faça viagens inesquecíveis!</h1><br>
+    </header>
+
+    <section>
+        <!--Pacote para Sydney-->
+        <div class='container'>
+            <div class='bloco'>
+                <img id="img-td" src="sidney.jpg"><br>
+                <i class="fas fa-plane"></i><span><b>Passagens para Sydney:</b></span><br>
+                <span><b>A partir de R$1.496,15 (Preço p/ pessoa).</b></span><br>
+                <i class="fas fa-wifi"></i> <i class="fas fa-swimmer"></i> <i class="fas fa-snowflake"></i><br>
+
+                <a href="#" onclick="return visibilidadeDetalhes()">Orçamento</a>
+
+                <br />
+
+                <div id="divDetalhes" style="display: none">
+                    <p>
+                        <i class="fas fa-check"></i> Passagem aérea + Hotel.<br>
+                        <i class="fas fa-check"></i> 5 diárias (Adulto).<br>
+                        <i class="fas fa-check"></i> Guia turístico.
+                    </p>
+                </div>
+            </div>
+
+            <!--Pacote para Los Angeles-->
+            <div class='bloco'>
+                <img id="img-td" src="losangeles.jpg"><br>
+                <i class="fas fa-plane"></i><span><b>Passagens para Los Angeles:</b></span><br>
+                <span><b>A partir de R$1.496,15 (Preço p/ pessoa).</b></span><br>
+                <i class="fas fa-wifi"></i> <i class="fas fa-swimmer"></i> <i class="fas fa-snowflake"></i><br>
+
+                <a href="#" onclick="return visibilidadeDetalhes2()">Orçamento</a>
+
+                <br />
+
+                <div id="divDetalhes2" style="display: none">
+                    <p>
+                        <i class="fas fa-check"></i> Passagem aérea + Hotel.<br>
+                        <i class="fas fa-check"></i> 5 diárias (Adulto).<br>
+                        <i class="fas fa-check"></i> Guia turístico.
+                    </p>
+                </div>
+            </div>
+
+            <!--Pacote para Glasgow-->
+            <div class='bloco'>
+                <img id="img-td" src="glasgow.jpg"><br>
+                <i class="fas fa-plane"></i><span><b>Passagens para Glasgow:</b></span><br>
+                <span><b>A partir de R$1.496,15 (Preço p/ pessoa).</b></span><br>
+                <i class="fas fa-wifi"></i> <i class="fas fa-swimmer"></i> <i class="fas fa-snowflake"></i><br>
+
+                <a href="#" onclick="return visibilidadeDetalhes3()">Orçamento</a>
+
+                <br />
+
+                <div id="divDetalhes3" style="display: none">
+                    <p>
+                        <i class="fas fa-check"></i> Passagem aérea + Hotel.<br>
+                        <i class="fas fa-check"></i> 5 diárias (Adulto).<br>
+                        <i class="fas fa-check"></i> Guia turístico.
+                    </p>
+                </div>
+            </div><br>
+
+            <!--Pacote para Seul-->
+            <div class='bloco'>
+                <img id="img-td" src="seul.jpg"><br>
+                <i class="fas fa-plane"></i><span><b>Passagens para Seul:</b></span><br>
+                <span><b>A partir de R$1.496,15 (Preço p/ pessoa).</b></span><br>
+                <i class="fas fa-wifi"></i> <i class="fas fa-swimmer"></i> <i class="fas fa-snowflake"></i><br>
+
+                <a href="#" onclick="return visibilidadeDetalhes4()">Orçamento</a>
+
+                <br />
+
+                <div id="divDetalhes4" style="display: none">
+                    <p>
+                        <i class="fas fa-check"></i> Passagem aérea + Hotel.<br>
+                        <i class="fas fa-check"></i> 5 diárias (Adulto).<br>
+                        <i class="fas fa-check"></i> Guia turístico.
+                    </p>
+                </div>
+            </div>
+
+            <!--Pacote para Londres-->
+            <div class='bloco'>
+                <img id="img-td" src="londres.jpg"><br>
+                <i class="fas fa-plane"></i><span><b>Passagens para Londres:</b></span><br>
+                <span><b>A partir de R$1.496,15 (Preço p/ pessoa).</b></span><br>
+                <i class="fas fa-wifi"></i> <i class="fas fa-swimmer"></i> <i class="fas fa-snowflake"></i><br>
+
+                <a href="#" onclick="return visibilidadeDetalhes5()">Orçamento</a>
+
+                <br />
+
+                <div id="divDetalhes5" style="display: none">
+                    <p>
+                        <i class="fas fa-check"></i> Passagem aérea + Hotel.<br>
+                        <i class="fas fa-check"></i> 5 diárias (Adulto).<br>
+                        <i class="fas fa-check"></i> Guia turístico.
+                    </p>
+                </div>
+            </div>
+
+            <!--Pacote para Guam-->
+            <div class='bloco'>
+                <img id="img-td" src="guam.jpg"><br>
+                <i class="fas fa-plane"></i><span><b>Passagens para Guam:</b></span><br>
+                <span><b>A partir de R$1.496,15 (Preço p/ pessoa).</b></span><br>
+                <i class="fas fa-wifi"></i> <i class="fas fa-swimmer"></i> <i class="fas fa-snowflake"></i><br>
+
+                <a href="#" onclick="return visibilidadeDetalhes6()">Orçamento</a>
+
+                <br />
+
+                <div id="divDetalhes6" style="display: none">
+                    <p>
+                        <i class="fas fa-check"></i> Passagem aérea + Hotel.<br>
+                        <i class="fas fa-check"></i> 5 diárias (Adulto).<br>
+                        <i class="fas fa-check"></i> Guia turístico.
+                    </p>
+                </div>
+            </div>
+
+        </div><br><br>
+
+    </section>
+
+</body>
+
+
+
+<footer id="contato"><br>
+    <p class="rodape"><input class="input" type="text" placeholder="Nome Completo">
+        <input class="input" type="text" placeholder="email">
+        <button id="butrod">Enviar</button>
+    </p>
+</footer>
+
+<br>
+
+<footer id="social">
+    <label class="social"> Oceanic Travels</br></br>
+        <i class="fas fa-map-marker-alt"></i> Av. Augusto de Lima, 233, Centro - Belo Horizonte - MG | CEP:
+        30190-001.<br><br>
+        <i class="fas fa-envelope"></i> help@oceanic.com &nbsp
+        <i class="fab fa-instagram"></i> Oceanic &nbsp
+        <i class="fab fa-facebook-square"></i> Oceanic Travels
+</footer>
+
+</html>

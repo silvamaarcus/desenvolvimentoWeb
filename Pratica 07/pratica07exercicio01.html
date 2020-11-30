@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática 07 - Exercício 01</title>
+    <link rel="stylesheet" href="pratica07exercicio01.css">
+    <script type="text/javascript" src="pratica07exercicio01.js"></script>
+</head>
+
+<body>
+    <table>
+        <tdead>
+            <tr>
+                <th>Nome do Aluno</th>
+                <th>Nota P1</th>
+                <th>Nota P2</th>
+                <th>Nota T1</th>
+                <th>Nota Total</th>
+                <th>Faltas</th>
+            </tr>
+        </tdead>
+        <tbody>
+            <tr onclick="ExibeValor(this)" onmouseout="mOut()">
+                <td>Ana</td>
+                <td>29</td>
+                <td>17</td>
+                <td>27</td>
+                <td class="NotaTotal">73</td>
+                <td class="Faltas">0</td>
+            </tr>
+            <tr onclick="ExibeValor(this)" onmouseout="mOut()">
+                <td>Gisele</td>
+                <td>28</td>
+                <td>18</td>
+                <td>24</td>
+                <td class="NotaTotal">70</td>
+                <td class="Faltas">3</td>
+            </tr>
+            <tr onclick="ExibeValor(this)" onmouseout="mOut()">
+                <td>Jane</td>
+                <td>26</td>
+                <td>18</td>
+                <td>24</td>
+                <td class="NotaTotal">70</td>
+                <td class="Faltas">1</td>
+            </tr>
+            <tr onclick="ExibeValor(this)" onmouseout="mOut()">
+                <td>Jorge</td>
+                <td>25</td>
+                <td>19</td>
+                <td>29</td>
+                <td class="NotaTotal">73</td>
+                <td class="Faltas">0</td>
+            </tr>
+            <tr onclick="ExibeValor(this)" onmouseout="mOut()">
+                <td>Marina</td>
+                <td>30</td>
+                <td>16</td>
+                <td>27</td>
+                <td class="NotaTotal">73</td>
+                <td class="Faltas">1</td>
+            </tr>
+            <tr>
+                <td class="media">Média: 71,8</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div style="display: none" id="Resultado">Aluno</div>
+</body>
+
+</html>

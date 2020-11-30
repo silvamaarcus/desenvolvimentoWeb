@@ -1,0 +1,63 @@
+h1 {
+    text-align: justify;
+    padding: 10px;
+    margin-left: 110px;
+    white-space: pre;
+    color: #784109;    
+}
+
+#pao, #crois {
+    width: 400px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.conteudo { 
+    display: table;    
+}
+
+.imagem {
+    padding-top: 80px;
+    display: table-cell;
+    float: right;  
+    margin-left: 70px;     
+}
+
+.imagem2 {
+    padding-top: 80px;
+    display: table-cell;
+    float: left;  
+    margin-left: 70px;  
+}
+
+.texto {
+    padding-top: 20px;
+    display: table-cell;
+    float: left;
+    width: 700px;
+    margin-left: 120px;
+    text-align: justify;
+}
+
+h2 {
+    text-align: right;
+    padding: 10px;
+    margin-right: 100px;
+    white-space: pre;
+    color: #784109;    
+}
+
+.texto2 {
+    padding-top: 20px;
+    display: table-cell;
+    float: right;
+    width: 700px;
+    margin-right: 120px;
+    text-align: justify;
+}
+
+
+
+
+
+ 

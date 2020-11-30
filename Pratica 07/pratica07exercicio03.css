@@ -1,0 +1,89 @@
+html, body {
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+
+table {
+    margin: 1px auto;
+    background-color: rgb(241, 212, 42);
+}
+
+.cor2 {
+    background-color: rgb(186, 226, 212);
+}
+
+.cor2:hover {
+    background-color: orangered;
+}
+
+tr:hover {
+    background-color: orangered;
+}
+
+table, td, th {
+    padding: 0.5rem 3rem;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    color: black;
+    padding: 0.5rem 3rem;
+}
+
+.topo {
+    color: white;
+    background-color: rgb(90, 90, 168)
+}
+
+.topo:hover {
+    color: orangered;
+    font-size: 1.5rem;
+    background-color: rgb(90, 90, 168)
+}
+
+.disc {
+    background-color: rgb(186, 226, 212);
+    color: rgb(81, 81, 214);
+    vertical-align: top;
+    text-align: left;
+    padding-left: 0.4rem;
+    font-weight: bold;
+}
+
+.disc1 {
+    background-color: rgb(241, 212, 42);
+    color: rgb(81, 81, 214);
+    vertical-align: top;
+    text-align: left;
+    padding-left: 0.4rem;
+    font-weight: bold;
+}
+
+.disc:hover {
+    background-color: orangered;
+    color: #ffffff;
+    vertical-align: top;
+    text-align: left;
+    padding-left: 1.5rem;
+    font-weight: bold;
+}
+
+.disc1:hover {
+    background-color: orangered;
+    color: #ffffff;
+    vertical-align: top;
+    text-align: left;
+    padding-left: 1.5rem;
+    font-weight: bold;
+}
+
+#Resultado {
+    border: 3px solid rgb(163, 8, 8);
+    color: rgb(163, 8, 8);
+    font-size: 1.5rem;
+    background-color: rgb(238, 103, 103);
+    border-collapse: collapse;
+    padding: 0.5rem 3rem;
+    margin: 3rem auto;
+}

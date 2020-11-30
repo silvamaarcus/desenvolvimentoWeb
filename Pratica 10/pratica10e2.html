@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Prática - Exemplo 2</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-
+    oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <style>
+        html {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        a {
+            display: block;
+            width: 125px;
+            height: 25px;
+            padding: 5px;
+            background-color: blue;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+    <script>
+        function visibilidadeDetalhes() {
+            if (document.getElementById("divDetalhes").style.display == "") {
+                document.getElementById("divDetalhes").style.display = "none";
+                document.getElementById("divTitulo").style.color = "black";
+
+            } else {
+                document.getElementById("divDetalhes").style.display = "";
+                document.getElementById("divTitulo").style.color = "red";
+            }
+
+            return false;
+        }
+    </script>
+</head>
+
+<body>
+    <div id="divTitulo">
+        <h3> Título da Notícia </h3>
+        <a href="#" onclick="return visibilidadeDetalhes()">
+            <i class="fas fa-exclamation-triangle"></i>
+            ver detalhes
+        </a>
+    </div>
+    <br />
+    <div id="divDetalhes" style="display:none">
+        Corpo da notícia: lorem ipsum dolor sit
+        amet consectetur adipisicing elit.
+        lorem ipsum dolor sit
+        amet consectetur adipisicing elit.<br />
+        lorem ipsum dolor sit
+        amet consectetur adipisicing elit.
+    </div>
+</body>
+</html>

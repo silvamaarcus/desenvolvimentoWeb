@@ -1,0 +1,32 @@
+.root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+header, footer {
+    background-color: gray;
+    font-size: 26px;
+    color: white;
+    height: 5rem;
+    vertical-align: auto;
+}
+tr, td {
+    padding: 1rem;
+    background-color: turquoise;
+    width: 15rem;
+    height: 3rem;
+    border: 1px solid black;
+}
+tr:hover {
+    color: orangered;
+    background-color: white;
+}
+td:hover {
+    background-color: white;
+}
+div {
+    float: right;
+    background-color: lawngreen;
+    margin:auto;
+    font-size: 26px;
+    margin-right: 40rem;
+}

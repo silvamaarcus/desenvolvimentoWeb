@@ -1,0 +1,14 @@
+html, body, h1 {
+    font-family: 'Calistoga', cursive;
+}
+p {
+    font-display: 'Alata', sans-serif;
+}
+.obs{
+    font-family: 'Calistoga', cursive;
+    color: #784109;
+}
+
+.carousel-inner> .item> img { 
+    margin: auto; 
+}

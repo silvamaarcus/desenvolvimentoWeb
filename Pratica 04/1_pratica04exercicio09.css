@@ -1,0 +1,24 @@
+.resultado1 {
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif, verdana;
+    font-size: 20px;
+}
+.textovermelho {
+    color: red;
+    font-weight: bold;
+    font-family: sans-serif, verdana;
+    font-size: 20px;
+}
+.textoazul {
+    color: blue;
+    font-weight: bold;
+    font-family: sans-serif, verdana;
+    font-size: 20px;
+}
+.textolaranja {
+    color: orange;
+    font-weight: bold;
+    font-family: sans-serif, verdana;
+    font-size: 20px;
+}

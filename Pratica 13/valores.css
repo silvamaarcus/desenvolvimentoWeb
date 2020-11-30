@@ -1,0 +1,21 @@
+.obs {
+    font-family: 'Calistoga', cursive;
+    color: #784109;
+    margin-left: 120px;
+}
+
+.obs2 {
+    font-family: 'Calistoga', cursive;
+    color: black;
+    margin-left: 120px;
+}
+.thead{
+    background-color: #361d04;
+    color: #faedd4; 
+}
+
+td {
+    color: #361d04;
+}
+
+

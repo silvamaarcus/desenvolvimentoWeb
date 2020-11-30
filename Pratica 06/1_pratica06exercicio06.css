@@ -1,0 +1,36 @@
+html, body {
+    font-size: 1rem;
+    font-family: 'Segoe UI', Verdana, Arial;
+    height: 95%;
+}
+
+main {
+    margin: 2rem; 
+    width: 32rem; 
+    height: 30rem; 
+}
+
+h1{
+    color: black;
+    font-size: 2rem;
+    font-family: Arial;
+}
+
+.numero, .resultado {
+    font-family: Arial;
+    font-size: 1rem;
+    background-color: orangered;
+    height: 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.resultado {
+    background-color: #20729e;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+input {text-align: right;}
